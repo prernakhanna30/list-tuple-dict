@@ -1,0 +1,21 @@
+myList = ['KKR', 'RCB', 'RR']
+myList.append('CSK')
+print(myList)
+type(myList)
+
+
+
+myTuple = ("KKR", "RCB", "RR", "CSK")
+print(myTuple)
+len(myTuple)
+
+
+
+myDict = {
+    "KKR" : "excellent"
+    "CSK" : "superb"
+    "RCB" : "very good"
+    "RR"  : "good"
+}
+  del myDict["RR"]
+print(myDict)
